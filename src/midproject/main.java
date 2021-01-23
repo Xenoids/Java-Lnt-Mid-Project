@@ -285,7 +285,7 @@ public class main {
 		}while((!(jabatanbaru.equals("Manager") && gajibaru == 8000000 || jabatanbaru.equals("Supervisor") && gajibaru == 6000000 || jabatanbaru.equals("Admin") && gajibaru == 4000000)));
 		arrlist.get(update).setGaji(gajibaru);
 		
-		System.out.println("Berhasil menambahkan karyawan Baru dengan id "+namabaru);
+		System.out.println("Berhasil menambahkan karyawan Baru dengan id "+kodebaru);
 		System.out.println("Manager : "+countmanager+" Supervisor : "+countsupervisor+" Admin : "+countadmin);
 		
 		if(countmanager > 3 && countmanager % 3 == 1 && ii == false) {
