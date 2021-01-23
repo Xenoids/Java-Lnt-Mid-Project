@@ -110,7 +110,7 @@ public class main {
 			}
 		}
 		
-		if(countadmin > 3 && countadmin % 3 == 1 && jj==false) {
+		if(countadmin > 3 && countadmin % 3 == 1 && jj== false) {
 			j = (arrlist.size() - countadmin % 3);
 			for(int p=0;p<j;p++) {
 				if(arrlist.get(p).getJabatan().equals("Admin")) {
@@ -139,7 +139,7 @@ public class main {
 			}
 		}
 		
-		if(countsupervisor > 3 && countsupervisor % 3 == 1 && kk ==false) {
+		if(countsupervisor > 3 && countsupervisor % 3 == 1 && kk == false) {
 			k = (arrlist.size() - countsupervisor % 3);
 			for(int p=0;p<k;p++) {
 				if(arrlist.get(p).getJabatan().equals("Supervisor")) {
@@ -156,6 +156,7 @@ public class main {
 				}
 			}
 			System.out.println("");
+			kk = true;
 		}
 		if(kk == true){
 			if(countsupervisor % 3 == 1) {
@@ -363,6 +364,7 @@ public class main {
 				}
 			}
 			System.out.println("");
+			kk = true;
 		}
 		if(kk == true){
 			if(countsupervisor % 3 == 1) {
